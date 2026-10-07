@@ -2,7 +2,7 @@
 
 Personal contact app with a Node server, public contact tools and a privacy policy.
 
-Run `npm start` to serve port 3000. Railway supplies its own `PORT`.
+Run `npm start` to serve port 3000. The dedicated Railway service sets `PORT=3000`, matching its domain target port.
 Run `npm test` to check routing, input validation and private path denial.
 
 Routes: `/`, `/contact`, `/about`, `/privacy`, `/healthz`.
